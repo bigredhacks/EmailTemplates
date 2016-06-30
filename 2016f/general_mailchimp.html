@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <style type="text/css">
         a {
             color: #B31B1B;
@@ -16,7 +17,20 @@
             margin: 0 0 20px 0;
         }
 
-    </style>
+        @media only screen and (max-width: 480px) {
+            table[id=canspamBar] td {
+                font-size: 14px !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 480px) {
+            table[id=canspamBar] td a {
+                display: block !important;
+                margin-top: 10px !important;
+            }
+
+        }</style>
 </head>
 
 <body style="font-size: 15px; text-align: center; font-family: Helvetica, sans-serif; margin: 0; color: #444;">
@@ -28,8 +42,15 @@
 
 <div style="margin: 0 auto; text-align: left; width:70%; max-width: 800px; background: #FCFCFC;border-left: 1px solid #ccc; border-right: 1px solid #ddd; padding: 20px 0 20px 0;">
 
-    <div style="width: 90%;padding: 0 auto" mc:edit="emailcontent">
-        <p>content</p>
+    <div style="width: 90%;padding: 0 0 0 20px" mc:edit="emailcontent">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus erat at neque facilisis, in porta arcu
+            feugiat. Donec quis velit malesuada, pellentesque sem ut, dignissim orci. Phasellus blandit lorem in pretium
+            commodo. In ac nisl vel lorem facilisis commodo. Vivamus mollis sapien est, a tristique nunc condimentum a.
+            Nunc bibendum ornare interdum. Vestibulum hendrerit pretium ante vitae accumsan. Nulla pretium tristique
+            pellentesque. Fusce sit amet hendrerit augue. Aenean et lorem in libero suscipit elementum. Cras finibus
+            placerat placerat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Suspendisse potenti. Suspendisse sagittis sed erat non pretium. Nullam sit amet odio ac ipsum aliquet
+            molestie.</p>
     </div>
 
 </div>
@@ -83,18 +104,7 @@
             </td>
         </tr>
     </table>
-    <style type="text/css">
-        @media only screen and (max-width: 480px) {
-            table[id="canspamBar"] td {
-                font-size: 14px !important;
-            }
 
-            table[id="canspamBar"] td a {
-                display: block !important;
-                margin-top: 10px !important;
-            }
-        }
-    </style>
 </center>
 </body>
 </html>
